@@ -1,0 +1,159 @@
+@media screen and (max-width: 720px) {
+     body {
+          margin: 0;
+          padding: 0;
+          height: 100vh;
+          background-image: url('purpleBg.png');
+          background-size: cover;
+          background-repeat: repeat-y;
+          background-position: center;
+     }
+
+     #rectangle {
+            background-color: purple;
+            width: 98%;
+            height: auto; /* Set height to auto for resizable content */
+            margin: 10px auto 0;
+            padding: 10px; /* Add padding for better visual appeal */
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+        } 
+
+        #dp {
+            width: 5em; 
+            height: 5em;
+            object-fit: cover;
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+
+        #greetings {
+            line-height: 1.5em;
+            color: #fff;
+            text-align: justify;
+            text-justify: distribute;
+            margin: 0;
+        }
+     
+     
+     
+      /*THE TREE CLICKABLE DIVS*/
+     
+     #clearButton {
+          background-color: red;
+          width: 70px;
+          height: 30px;
+          margin: 0 auto;
+          border-radius: 10px;
+          text-align: center;
+          line-height: 30px;
+          color: white;
+          justify-content: center;
+          display: block;
+     }
+
+      
+     .friendBox {
+          background-color: purple;
+          width: 30%;
+          height: 100px;
+          float: left;
+          margin: 20px 1.6%;
+          border-radius: 10px;
+     }
+      
+      .them {
+           width: 50px;
+           height: 50px;
+           object-fit: cover;
+           border-radius: 50%;
+           display: block;
+           margin: 5px auto;
+      }
+      
+      .names {
+           text-align: center;
+      }
+      /*     END      */
+      
+      
+      
+      /*THREE PURPLE BOXES*/
+      
+      .btn {
+           margin: 0 auto;
+           text-align: center;
+           
+     }
+
+      
+      #messageBox {
+           height: 500px;
+      }
+      
+      #textContainer {
+          background-color: white;
+          width: 95%;
+          height: 79%;
+          margin: 20px auto 10px;
+          border-radius: 10px;
+          text-align: justify;
+          text-justify: distribute;      
+          overflow-y: auto;
+        /*  max-height: 300px;*/
+     }
+     
+     .message-content {
+         margin: 10px 20px 10px;
+         padding-top: 10px;
+  
+     }
+     
+      
+     .boxes {
+          background-color: purple;
+          width: 95%;
+          height: 400px;
+          margin: 10px auto;
+          border-radius: 10px;
+          clear: both;
+          padding-top: 10px;
+      
+     }
+     
+     .label {
+          background-color: white;
+          width: 50%;
+          height: 25px;
+          margin: 10px auto;
+          border-radius: 10px;  
+          text-align: center;
+          line-height: 26px;      
+     }   
+     /*     END      */
+     
+     #remarksContainer {
+          background-color: white;
+          width: 95%;
+          height: 79%;
+          margin: 20px auto 10px;
+          border-radius: 10px;
+          text-align: justify;
+          text-justify: distribute;      
+          text-align: justify;
+          text-justify: distribute;
+          overflow-y: auto;
+
+
+     /****LOGIN FORM****/
+     
+        
+        
+}
+}
+@media screen and (min-width: 720px) {
+  body {
+    display: none;
+  }
+}

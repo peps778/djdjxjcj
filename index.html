@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HAPPY BIRTHDAY M'LADY!!!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+     
+</head>
+<body>
+
+   <div class="purple" id="rectangle">
+        <img id="dp" src="profile.jpg" alt="file not found">
+        <h5 id="greetings">My babi, happy birthday! I hope your day is as lovely and radiant as your grin. Cheers to an infinite year filled with happiness, humor, and love.</h5>
+   </div> 
+             
+   <div class="friendBox" onclick="displayMessage('IRA')">
+        <img class="them" src="them.jpg" alt="image failed to load">
+        <p class="names">IRA</p>
+   </div>
+   
+   <div class="friendBox" onclick="displayMessage('akang')">
+        <img class="them" src="them.jpg" alt="image failed to load">
+        <p class="names">ANGELYN</p>
+   </div>
+   
+   <div class="friendBox" onclick="displayMessage('helen')">
+        <img class="them" src="them.jpg" alt="image failed to load">
+        <p class="names">HELEN</p>
+   </div>
+             
+   <div class="boxes" id="messageBox">
+        <div class="label" id="messageTitle">   
+            MESSAGE BOX
+        </div>   
+        <div class="whiteBox" id="textContainer">
+        
+            <!-- words -->        
+        </div>   
+        <button id="clearButton" onclick="clearMessage()">CLEAR</button>
+   </div>
+                
+         
+         
+   <div class="boxes" id="remarks">
+        <div class="label" id="remarksTitle">
+             REMARKS
+        </div>
+        <div class="whiteBox" id="remarksContainer">
+            <!-- words -->
+        </div>
+   </div>
+             
+             
+             
+   <div class="boxes" id="loginForm">
+        <div class="wrapper">
+            <div class="title">
+                AUTHORIZED LOGIN
+            </div>
+            <form id="loginForm">
+                <div class="field">
+                    <input type="text" id="usernameInput" required>
+                    <label>Username...</label>
+                </div>           
+                <div class="field">
+                    <input type="password" id="passwordInput" required>
+                    <label>Password...</label>
+                    <span class="password-toggle" onclick="togglePasswordVisibility()">👁️‍🗨️</span>
+                </div>            
+                <div class="field">
+                    <input type="button" value="Login" onclick="validateLogin()">
+                </div>   
+            </form>        
+        </div>
+    </div>
+    
+    
+   
+</body>
+<footer>
+     &nbsp;
+</footer>
+</html>
+
+
